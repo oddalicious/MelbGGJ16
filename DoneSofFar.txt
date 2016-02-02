@@ -1,0 +1,10 @@
+COMPLETED:
+Stage system "Days"
+When the player jumps into the teleporter (currently on the mound for the sake of testing) it checks to see what state they're up to, and then the 'end-day condition', if it's done, it sets it to the next day. Either way it resets
+the Play aspects.
+I've added the Objects for the first few objectives, they largely just disappear when activated, this will be replaced with animations or some other alternative when possible.
+The Rat follows a Spline system around the map, this is located on the RatSpline object.
+The Laps system was to be implemented by triggering a series of 'posts' around the map a few times. The post trigger has been crudely implemented but the handling has not.
+The Spinning condition has been implemented but the trigger has not.
+
+The Objective gets the other objects on Start (Constructor Method), and the other objects do the same.
